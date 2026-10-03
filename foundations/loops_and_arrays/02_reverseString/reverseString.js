@@ -1,4 +1,16 @@
-const reverseString = function() {
+const reverseString = function(str) {
+
+
+    let strArray;
+
+    for(let i = 0;i < str.length;i++)
+    {
+          strArray.push(str[i])
+    }
+
+
+   
+
 
 };
 
