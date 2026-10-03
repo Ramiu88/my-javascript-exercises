@@ -3,6 +3,7 @@ const reverseString = function(str) {
 
     let strArray;
     let finalArray;
+    let result;
 
     for(let i = 0;i < str.length;i++)
     {
@@ -19,6 +20,8 @@ const reverseString = function(str) {
 
     }
 
+
+       result = finalArray.join('');
 
 };
 
