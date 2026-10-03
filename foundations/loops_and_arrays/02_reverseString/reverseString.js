@@ -1,8 +1,8 @@
 const reverseString = function(str) {
 
 
-    let strArray;
-    let finalArray;
+    let strArray = [];
+    let finalArray = [];
     let result;
 
     for(let i = 0;i < str.length;i++)
@@ -11,17 +11,16 @@ const reverseString = function(str) {
     }
 
 
-   for(let j = str.length-1; j > 0;j--)
+   for(let j = 0;j < strArray.length;j++)
+   {
+         finalArray.unshift(strArray[j])
+   }
     
-    {
+  
 
-        finalArray.push(strArray[j])
+       result = finalArray.join('')
 
-
-    }
-
-
-       result = finalArray.join('');
+       return result;
 
 };
 
