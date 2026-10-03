@@ -1,15 +1,21 @@
 const repeatString = function(str,number) {
 
+    let arr = [];
+
     if(number < 0)
     {
-        alert("ERROR")
+        return 'ERROR'
     }
 
     for(let i = 0;i < number;i++)
     {
         
-        console.log(str);
+        arr.push(str);
     }
+
+    let result = arr.join('');
+    
+    return result;
 
 
 
