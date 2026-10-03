@@ -2,6 +2,7 @@ const reverseString = function(str) {
 
 
     let strArray;
+    let finalArray;
 
     for(let i = 0;i < str.length;i++)
     {
@@ -9,7 +10,14 @@ const reverseString = function(str) {
     }
 
 
-   
+   for(let j = str.length-1; j > 0;j--)
+    
+    {
+
+        finalArray.push(strArray[j])
+
+
+    }
 
 
 };
