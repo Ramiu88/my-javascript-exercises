@@ -1,4 +1,14 @@
-const palindromes = function () {
+const palindromes = function (str) {
+
+ let result = str.split('').reverse().join('');
+
+ if(result == str)
+ {
+    return true;
+ }
+
+ 
+
 
 };
 

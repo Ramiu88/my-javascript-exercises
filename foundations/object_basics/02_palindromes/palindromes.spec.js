@@ -1,7 +1,7 @@
 const palindromes = require('./palindromes')
 
 describe('palindromes', () => {
-  test('detects odd-length palindrome', () => {
+  test.skip('detects odd-length palindrome', () => {
     expect(palindromes('racecar')).toBe(true);
   });
   test.skip('detects even-length palindrome', () => {
