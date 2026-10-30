@@ -1,11 +1,18 @@
 const palindromes = function (str) {
 
- let result = str.split('').reverse().join('');
+   let searchPattern = /\W/g;
+   let result = str.toLowerCase().replace(searchPattern,'');
 
- if(result == str)
- {
-    return true;
- }
+   if(result.split('').reverse().join('') == result)
+   {
+     return true;
+   }
+
+   else {
+
+      return false;
+   }
+  
 
  
 
